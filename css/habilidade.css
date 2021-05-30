@@ -1,0 +1,22 @@
+.habilidade .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.habilidade .card-img {
+    width: 10vw;
+    height: 10vw;
+
+    font-family: 'Poppins';
+    font-size: 1.8vw;
+
+    background-color: #34495e;
+    color: #eaecee;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

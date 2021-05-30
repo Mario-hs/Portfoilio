@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive ,'Poppins';
+
+    font-size: 18px;
+}
+
+h1{
+    color: #1f2b38;
+    padding-left: 15vw;
+    font-size: 2.6vw;
+    font-family: 'Montserrat';
+}
+
+
+ul{
+    list-style: none; 
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5vh;
+    column-gap: 10vw;
+
+    padding-left: 0;
+}

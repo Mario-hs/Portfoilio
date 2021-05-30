@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Henrique | Desenvolvedor Web</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/habilidade.css">
+    <link rel="stylesheet" href="css/rede-social.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="css/media.css">
+
+
+    <script src="scripts/scripts.js"></script>
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-layer-group"></i>
+                <span>MH</span>
+            </div>
+            <div class="button-nav">
+                <a href="#"><button type="button">Quem sou</button></a>
+                <a href="#port"><button type="button">Portfólio</button></a>
+                <a href="#habili"><button type="button">Habilidades</button></a>
+                <a href="#cont"><button type="button">Contatos</button></a>
+                
+                <i class="fas fa-bars" onclick="clickIcon()"></i>
+            </div>
+        </nav>
+
+        <div class="img-fundo"></div>
+    </header>
+
+    <main>
+        <div class="box-container">
+            <div class="container-foto">
+                <!-- <div class="img"></div>   -->
+                <!-- SE EU QUEISER DEIXAR NORMAL -->
+                <div class="img">
+                    <div class="formato-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="quem-sou">
+
+                <h1>Quem sou</h1>
+                <p>
+                    Me chamo Mario Henrique, sou aluno do curso de graduação em Sistemas de Informação no Ifes - Campus Cachoeiro. Apaixonado em estudar e em fazer front-end, buscando me tornar um profissional capacitado e bom na area de desenvolvimento web e mobile.
+                </p>
+            </div>
+
+            <h1 id="port">Portifólio</h1>
+            <div  class="portifolio">  
+                <ul style="column-gap: 5vw;"> 
+                        <div class="card-body" style="background-image:url(img/projetos/ecoleta.png)"></div>
+                        <div class="card-body" style="background-image:url(img/projetos/instAnime.JPG)"></div>
+                        <div class="card-body" style="background-image:url(img/projetos/proffy.png)"></div>
+                        <div class="card-body" style="background-image:url(img/projetos/happy.png)"></div>
+                        <div class="card-body" style="background-image:url(img/projetos/buscaRep.JPG)"></div>
+                        <div class="card-body" style="background-image:url(img/projetos/hotelDog.JPG)"></div>
+                </ul>
+            </div>
+
+            <p style="height: auto; padding: 0 10vw 5vw;">
+                Sem experiência profissional, mas com alguns projetos já desenvolvidos por conta própria. Buscando sempre aprender e melhorar mais.
+            </p>
+
+            <h1 id="habili">Habilidades</h1>
+            <div class="habilidade">
+                <ul>
+                    <li class="card">
+                        <div class="card-img">HTML</div>
+                    </li>
+                    <li class="card">
+                        <div class="card-img">CSS</div>
+                    </li>
+                    <li class="card">                        
+                        <div class="card-img">C++</div> 
+                    </li>
+                    <li class="card">
+                        <div class="card-img">JS</div>
+                    </li>
+                    <li class="card">
+                        <div class="card-img">FIGMA</div>
+                    </li>
+                </ul>
+                
+            </div>
+
+            <h1 id="cont">Contatos</h1>
+
+            <div class="container-rede-social">
+                <div class="rede-social">
+                    <a href="https://github.com/Mario-hs"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/mario_hs_/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100007609991138"><i class="fab fa-facebook-f"></i></a> 
+                    <a href="https://api.whatsapp.com/send?phone=5528999726680&text=Ol%C3%A1%2C%20que%20bom%20voc%C3%AA%20est%C3%A1%20aqui!%20Te%20responderei%20o%20mais%20r%C3%A1pido%20o%20poss%C3%ADvel."><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+
+    <footer>
+        <div class="contato">
+            <input type="text" name="email" id="email" placeholder="Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+            <button type="submit" onclick="umClick()">Enviar Mensagem</button>
+        </div>
+        <div class="copy">
+            <p>Mario Henrique da Silva &copy; 2020. Todos os direitos reservados</p>
+        </div>
+
+    </footer>
+</body>
+</html>

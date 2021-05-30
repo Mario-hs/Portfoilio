@@ -1,0 +1,192 @@
+@media (min-width: 1025px){
+    @media (max-width: 1439px){
+
+       .contato input {
+           margin-top: 18vw;
+       }   
+   }
+}
+
+@media (max-width: 1024px){
+
+   header{
+       height: 45vh;;
+   }
+   
+   main{
+       margin-bottom: -200px;
+       transform: translate3d(0,-5%,0);
+   }
+
+   .button-nav button{
+       font-size: 0.8rem;
+   
+       width: 10vw;
+       height: 3vh;
+   }
+
+   .img-fundo {
+       height: 400px;
+   }
+
+   .portifolio ul {
+       grid-template-columns: repeat(2, 1fr);
+       column-gap: 5vw;
+   }
+
+   .card-body {
+       width: 30vw;
+       height: 20vw;
+   }
+
+   .habilidade .card-img {
+       width: 13vw;
+       height: 13vw;
+   }
+
+   .contato input {
+       margin-top: 30vh;
+       margin-bottom: 0.6rem;
+       height: 5vh;
+       font-size: 0.8rem;
+   }
+
+   .contato textarea {
+       height: 10vh;
+       font-size: 0.8rem;
+   }
+
+   .contato button {
+       height: 6vw;
+       font-size: 0.6rem;
+   }
+
+}
+
+@media (max-width: 870px){
+
+   header{
+       height: 42vh;
+   }
+
+   .img-fundo {
+       height: 350px;
+   }
+
+
+   nav{
+       padding: 0 4.6rem;
+   }
+
+   .logo i {
+       font-size: 25px;
+   }
+
+   .logo span {
+       font-size: 20px;
+       margin-bottom: -3px;
+       padding-left: 5px;
+   }
+
+   .button-nav button {
+       display: none;
+   }
+
+   .button-nav i {
+       display: block;
+       color: #34495e;
+       font-size: 25px;
+   }
+
+   h1 {
+       padding-left: 0;
+       font-size: 5.6vw;
+       text-align: center;
+   }
+
+   .quem-sou p, p {
+       font-size: 3.2vw;
+       line-height: 7.2vh;   
+   }
+
+   .portifolio .card-body {
+       width: 35vw;
+       height: 25vw;
+   }
+
+   a {
+       margin: auto 0.2rem;
+   }
+
+   .contato button {
+       height: 5vh;
+       width: auto;
+   }
+
+}
+
+@media (max-width: 425px){
+
+   header {
+       height: 37vh;
+   }
+
+   nav {
+       padding: 0 2.6rem;
+   }
+
+   .logo i {
+       font-size: 20px;
+   }
+
+   .logo span {
+       font-size: 15px;
+   }
+
+   .button-nav i {
+       font-size: 20px;
+   }
+   
+   .img-fundo {
+       height: 320px;
+   }
+
+   .quem-sou p, p {
+       font-size: 3.2vw;
+       line-height: 5vh;   
+   }
+
+   .portifolio ul{
+       grid-template-columns: repeat(1, 1fr);
+       row-gap: 2vh;
+   }
+
+   .portifolio .card-body {
+       width: 55vw;
+       height: 35vw;
+   }
+
+   .habilidade .card-img {
+       width: 25vw;
+       height: 25vw;
+       font-size: 4.6vw;
+   }
+   
+   .habilidade ul {
+       grid-template-columns: repeat(2, 1fr);
+   }
+
+   .rede-social a {
+       width: 9vw;
+       height: 9vw;
+   }
+
+   .rede-social i {
+       font-size: 5vw;
+   }
+
+   .contato button {
+       width: 100px;
+       height: 30px;
+   }
+}

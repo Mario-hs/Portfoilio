@@ -1,0 +1,75 @@
+footer {
+    height: auto;
+    margin: -30vh 0 0 0;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #2C3E50;
+}
+
+.contato input{
+    margin-top: 10vw;
+    margin-bottom: 1.6rem;
+    width: 45vw;
+    height: 3vw;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 1.2vw;
+    padding-left: 10px;
+
+}
+
+.contato textarea {
+    width: 45vw;
+    height: 6vw;
+
+    border-radius: 5px;
+    border: none;
+
+    font-size: 1.2vw;
+
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.contato button {
+    margin: 1.6rem;
+    width: 20vw;
+    height: 4vw;
+
+    border-radius: 5px;
+    border: none;
+
+    background-color: #eaecee;
+    color: #2c3e50;
+    font-size: 1.2vw;
+
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+
+    height: 50px;
+
+    background: #4B4545;
+}
+
+.copy p {
+    align-self: center;
+    font-size: 0.6rem;
+    height: 30px;
+    padding: 0;
+    color: #eaecee;
+}
+
+.swal-button {
+    background-color: #2C3E50;
+    transition: .2s linear;
+}

@@ -1,0 +1,29 @@
+.container-rede-social {
+    display: flex;
+    justify-content: space-around;
+    transform: translate3d(0,27%,0);
+
+    padding-top: 15px;
+}
+
+.rede-social a {
+    text-decoration: none;
+
+    width: 5vw;
+    height: 5vw;
+    margin: auto 0.6rem;
+
+    color: white;
+    background:linear-gradient(130deg, #6c5ce7, #fd79a8);
+
+    /* background-color: #b7b7b7; */
+    border-radius: 50%;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rede-social i{
+    font-size: 3vw;
+}

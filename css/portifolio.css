@@ -1,0 +1,12 @@
+.portifolio .card {
+    width: 20vw;
+    
+}
+
+.portifolio .card-body {
+    width: 20vw;
+    height: 12vw;
+    border-radius: 10px;
+    background: center;
+    background-size: cover;
+}
